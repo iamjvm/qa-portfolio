@@ -1,0 +1,143 @@
+TC ID,Title,Preconditions,Test Steps,Expected Result,Actual Result,Status: Pass/Fail,BUG
+TC_EMP_001,"Verify search results with
+Valid Employee First name","- Browser is open
+- User is logged in to OrangeHRM
+- Employee List page is open 
+(PIM → Employee List)","1. Enter a valid emp 
+first name (eg. addu)
+2. Click on Search","By searching the name the 
+details would be displayed","The details are been
+ displayed",Pass,
+TC_EMP_002,"Verify search results with
+Valid Employee Last name","- Browser is open
+- User is logged in to OrangeHRM
+- Employee List page is open 
+(PIM → Employee List)","1. Enter a valid emp 
+last name (eg. test)
+2. Click on Search","Multiple employees with matching 
+last name should be displayed","Multiple users have 
+same last name",Pass,
+TC_EMP_003,"Search with partial name
+ (first 2 letters)","- Browser is open
+- User is logged in to OrangeHRM
+- Employee List page is open 
+(PIM → Employee List)","1. Enter the first 2 letters
+of the name (eg. ma)
+2. Click on Search","All employees with 
+names starting with ""ma"" 
+should be displayed","Multiple users have 
+same first 2 letters",Pass,
+TC_EMP_004,"Search with a name that
+ does not exist","- Browser is open
+- User is logged in to OrangeHRM
+- Employee List page is open 
+(PIM → Employee List)","1. Enter a name (eg. jvm)
+2. Click on search","""No Records Found"" message 
+should be displayed","it displayed as 
+""no records found""",Pass,
+TC_EMP_005,Search with all fields empty,"- Browser is open
+- User is logged in to OrangeHRM
+- Employee List page is open 
+(PIM → Employee List)","1. Do not enter anything 
+in the boxes
+2. Click on Search","All employees would be 
+displayed","All are Employees 
+are listed",Pass,
+TC_EMP_006,"Search with special 
+characters in name field 
+(e.g. @#$)","- Browser is open
+- User is logged in to OrangeHRM
+- Employee List page is open 
+(PIM → Employee List)","1.Enter a special characters 
+(@#$)  in Emp Name field
+2. Click on Search","In the records that would be
+no name found ","it displayed as 
+""no records found""",Pass,
+TC_EMP_007,"Search with only spaces 
+in name field","- Browser is open
+- User is logged in to OrangeHRM
+- Employee List page is open 
+(PIM → Employee List)","1. Enter "" "" (space) in the 
+emp name field
+2. Click on search","Validation message should 
+be displayed or all records 
+should be shown","Error shows 
+""Invalid Parameter""",Fail,"Entering spaces in Employee Name 
+field shows ""Invalid Parameter"" error 
+instead of a user friendly message"
+TC_EMP_008,"Search with a very long name
+ (100+ characters)","- Browser is open
+- User is logged in to OrangeHRM
+- Employee List page is open 
+(PIM → Employee List)","1. Enter a long name
+(100 characters) in Emp Name
+Field
+2. Click on search","It should restrict input or show 
+a validation message","Error shows 
+""Should not exceed 100 
+characters""",Pass,
+TC_EMP_009,"Filter by Employment 
+Status: Full-Time","- Browser is open
+- User is logged in to OrangeHRM
+- Employee List page is open 
+(PIM → Employee List)","1. Select ""Full-Time"" from  
+Employment Status dropdown 
+2. Click Search button","Only Full-Time employees
+ should be displayed","1 Full-Time employee 
+displayed",Pass,
+TC_EMP_010,"Filter by Employment 
+Status: Part-Time","- Browser is open
+- User is logged in to OrangeHRM
+- Employee List page is open 
+(PIM → Employee List)","1. Select ""Part-Time"" from  
+Employment Status dropdown 
+2. Click Search button","Only Part-Time employees
+ should be displayed","No Records Found
+there are no part-time
+employees",Pass,
+TC_EMP_011,Filter by Job Title,"- Browser is open
+- User is logged in to OrangeHRM
+- Employee List page is open 
+(PIM → Employee List)","1. Select a Job Title from 
+   Job Title dropdown
+2. Click Search button","Only employees with selected 
+Job Title should be displayed","Employees with matching
+ Job Title are displayed",Pass,
+TC_EMP_012,"Combine name + status 
+filter together","- Browser is open
+- User is logged in to OrangeHRM
+- Employee List page is open 
+(PIM → Employee List)","1. enter a name in emp name field
+ also select emp status field
+2. Click on search","Only employees matching both 
+name and status should be displayed","1 record found matching both 
+name and employment status",Pass,
+TC_EMP_013,Click Reset button,"- Browser is open
+- User is logged in to OrangeHRM
+- Employee List page is open 
+(PIM → Employee List)","1. Enter any name in Employee Name field
+2. Select any Employment Status
+3. Click Reset button","All filters should be cleared and 
+Employee List page should reset 
+to default state","All filters cleared and page 
+reset to default state",Pass,
+TC_EMP_014,"Click on an employee name
+ in results","- Browser is open
+- User is logged in to OrangeHRM
+- Employee List page is open 
+(PIM → Employee List)","1. Search for any employee
+2. Click on the employee name 
+   in the results table","Employee profile page should 
+open with full details","Employee profile page opened 
+successfully with full details",Pass,
+TC_EMP_015,"Search immediately after 
+login with no filters","- Browser is open
+- User is logged in to OrangeHRM
+- Employee List page is open 
+(PIM → Employee List)","1. Log out of OrangeHRM
+2. Log back in with Admin/admin123
+3. Go to PIM → Employee List
+4. Click Search immediately without 
+   entering anything","All employee records should be
+ displayed","All employee records displayed 
+successfully",Pass,

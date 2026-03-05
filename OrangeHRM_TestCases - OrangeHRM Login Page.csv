@@ -1,0 +1,69 @@
+TC ID,Title,Preconditions,Test Steps,Expected Result,Actual Result,Status: Pass/Fail,BUG
+TC_Login_001,"Verify successful login with 
+valid username & password","- Browser is open
+- OrangeHRM login page is loaded","1. Enter ""Admin"" in the username field
+2. Enter ""admin123"" in the password field
+3. Click the Login button","User is successfully logged in and 
+redirected to the dashboard","User successfully logged in and
+ redirected to the dashboard",Pass,
+TC_Login_002,"Verify error message with valid 
+username and wrong password","- Browser is open
+- OrangeHRM login page is loaded","1. Enter ""Admin"" in the username field
+2. Enter ""admin143"" in the password field
+3. Click the Login button","Error should be displayed 
+saying invalid credentials","Error message displayed
+""invalid credentials""",Pass,
+TC_Login_003,"Wrong username and 
+valid password","- Browser is open
+- OrangeHRM login page is loaded","1. Enter ""JVM"" in the username field
+2. Enter ""admin123"" in the password field
+3. Click the Login button","Error should be displayed 
+saying invalid credentials","Error message displayed
+""invalid credentials""",Pass,
+TC_Login_004,"Empty username and
+ valid password","- Browser is open
+- OrangeHRM login page is loaded","1. Do not enter anything in the username field
+2. Enter ""admin123"" in the password field
+3. Click the Login button","If there is an empty field there 
+should appear required field",Its shows required ,Pass,
+TC_Login_005,"Valid username and 
+empty password","- Browser is open
+- OrangeHRM login page is loaded","1. Enter ""Admin"" in the username field
+2. Do not enter anything in the password field
+3. Click the Login button","If there is an empty field there 
+should appear required field",Its shows required ,Pass,
+TC_Login_006,Empty username & password ,"- Browser is open
+- OrangeHRM login page is loaded","1. Do not enter anything in the username field
+2. Do not enter anything in the password field
+3. Click the Login button","If there is an empty field there 
+should appear required field",Its shows required ,Pass,
+TC_Login_007,"Username with spaces
+ before and after","- Browser is open
+- OrangeHRM login page is loaded","1. Enter "" Admin "" in the username field
+2. Enter ""admin123"" in the password field
+3. Click the Login button","App should trim the spaces 
+automatically and log the user in 
+successfully","Error message displayed
+""invalid credentials""",Fail,"Potential Bug: Username field does not 
+trim leading/trailing spaces — 
+causes login failure for valid users"
+TC_Login_008,Password case sensitivity,"- Browser is open
+- OrangeHRM login page is loaded","1. Enter ""Admin"" in the username field
+2. Enter ""Admin123"" in the password field
+3. Click the Login button","Error should be displayed 
+saying invalid credentials","Error message displayed
+""invalid credentials""",Pass,
+TC_Login_009,"Very long username 
+(100 characters)","- Browser is open
+- OrangeHRM login page is loaded","1. Enter ""A""(100 times) in the username field
+2. Enter ""Admin123"" in the password field
+3. Click the Login button","Error should be displayed 
+saying invalid credentials","Error message displayed
+""invalid credentials""",Pass,
+TC_Login_010,"Special characters in
+ username","- Browser is open
+- OrangeHRM login page is loaded","1. Enter ""%Admin$"" in the username field
+2. Enter ""Admin123"" in the password field
+3. Click the Login button","Error should be displayed 
+saying invalid credentials","Error message displayed
+""invalid credentials""",Pass,
