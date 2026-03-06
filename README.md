@@ -13,3 +13,10 @@ Google Sheets | OrangeHRM Demo | GitHub
 
 ## Live Demo Site Tested
 https://opensource-demo.orangehrmlive.com
+
+## JIRA Portfolio
+- OrangeHRM QA Testing Project
+- 3 User Stories created
+- 3 Bug Reports logged
+- Full Bug Lifecycle simulated
+- Sprint Board screenshots
