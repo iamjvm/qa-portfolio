@@ -15,7 +15,7 @@ Last Updated: 11th March 2026
 - Back button should not allow form resubmission
 
 ## 2. UI / Visual Testing
-- All text is readable — no truncation or overflow
+- All text is readable â€” no truncation or overflow
 - No broken images on any page
 - Layout does not break when browser is resized
 - Page title in browser tab is correct on every page
@@ -48,7 +48,7 @@ Last Updated: 11th March 2026
 - Error messages appear next to the relevant field
 - Unknown URL shows a proper 404 page
 - Error messages do not show stack traces or database errors
-- Error messages should be in simple language — not technical jargon
+- Error messages should be in simple language â€” not technical jargon
 - Error messages should be specific enough for the user to understand and fix the mistake
 
 ## 6. Cross-Browser Testing
@@ -63,12 +63,12 @@ Last Updated: 11th March 2026
 
 ## 7. Security Basics
 
-- Protected page URL accessed directly without login — should redirect to login
+- Protected page URL accessed directly without login â€” should redirect to login
 - After logout, Back button should not show protected content
 - Password field should mask characters
 - Sensitive data should not be visible in URL bar
 - Script injection in text fields should not execute
-- Account numbers should be masked in format XXXX1234 — never shown in full on screen
+- Account numbers should be masked in format XXXX1234 â€” never shown in full on screen
 - Sensitive account details should require re-verification before displaying (e.g. biometric or password confirmation)
 
 ## 8. Usability
@@ -86,3 +86,4 @@ Last Updated: 11th March 2026
 - Address fields should accept valid punctuation like commas and periods
 - Mobile number fields should not accept less or more than 10 digits
 - Back button should not allow form resubmission
+
