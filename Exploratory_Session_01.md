@@ -6,7 +6,7 @@ for undiscovered bugs and edge cases
 
 Tester: Janhavi Morajkar
 Date: 10th March 2026
-Start Time: [write current time]
+Start Time: 11:50
 Time Box: 80 minutes
 App URL: https://demo.guru99.com/V4/
 ================================================
@@ -117,3 +117,4 @@ Areas Needing More Testing:
 One Thing That Surprised Me: 
 The mobile number field accepting wrong digit counts and the address field rejecting valid punctuation like commas and periods surprised me the most these are basic validations that a banking app should never miss!
 ================================================
+
