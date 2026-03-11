@@ -1,5 +1,5 @@
 ================================================
-EXPLORATORY TEST SESSION — 01
+EXPLORATORY TEST SESSION â€” 01
 ================================================
 Session Charter: Explore Guru99 Bank 
 for undiscovered bugs and edge cases
@@ -13,74 +13,74 @@ App URL: https://demo.guru99.com/V4/
 
 --- SESSION NOTES ---
 
-[11:54] Test 1 — New Customer empty form
+[11:54] Test 1 â€” New Customer empty form
 What I did: Clicked New Customer, clicked Submit with all fields empty
 Expected: Validation errors on all fields
-Actual: the error shows “please fill all fields”
+Actual: the error shows â€œplease fill all fieldsâ€
 Bug? No
 
-[11:57] Test 2 — Numbers in Customer Name
+[11:57] Test 2 â€” Numbers in Customer Name
 What I did: Entered "12345" in Customer Name field
 Expected: Only alphabets allowed
-Actual: error shows “numbers are not allowed”
+Actual: error shows â€œnumbers are not allowedâ€
 Bug? No
 
-[11:59] Test 3 — Special characters in Name
+[11:59] Test 3 â€” Special characters in Name
 What I did: Entered "@#$%" in Customer Name field
 Expected: Validation error shown
-Actual: error shows “Special characters are not allowed”
+Actual: error shows â€œSpecial characters are not allowedâ€
 Bug? No
-[12:02]Test 4 – In customer name field mixing of letters & numbers
-What I did: Entered “John123” in Customer name field
+[12:02]Test 4 â€“ In customer name field mixing of letters & numbers
+What I did: Entered â€œJohn123â€ in Customer name field
 Expected: Validation Error shown
-Actual: error shows “numbers are not allowed”
+Actual: error shows â€œnumbers are not allowedâ€
 Bug? No
 
-[12:05]Test 5 – In DOB enter a future date
-What I did: Entered “01/01/2050” in DOB field
+[12:05]Test 5 â€“ In DOB enter a future date
+What I did: Entered â€œ01/01/2050â€ in DOB field
 Expected: Validation Error shown
 Actual: It accepts it & no error shown
 Bug? Yes
 
-[12:08]Test 6 – In Customer name field entered only spaces
+[12:08]Test 6 â€“ In Customer name field entered only spaces
 What I did: Entered spaces in customer name field
 Expected: error msg like only spaces allowed or character needed
-Actual: error shows “First character can not have space”
+Actual: error shows â€œFirst character can not have spaceâ€
 Bug? No
 
-[12:10]Test 7 – Leave Customer field empty and fill everything & submit
+[12:10]Test 7 â€“ Leave Customer field empty and fill everything & submit
 What I did: Filled all the fields except customer name field & submit
 Expected: Validation error shows
-Actual: the error shows “please fill all fields”
+Actual: the error shows â€œplease fill all fieldsâ€
 Bug? No
 
-[12:13]Test 8 – In PIN field entered letters
-What I did: In PIN field, Entered “abcd”
+[12:13]Test 8 â€“ In PIN field entered letters
+What I did: In PIN field, Entered â€œabcdâ€
 Expected: Validation error shown
-Actual: Error shows “Characters are not allowed”
+Actual: Error shows â€œCharacters are not allowedâ€
 Bug? No
 
 
 
-[12:19]Test 9 – Entered special characters such as  “, . ;” in address field
-What I did: Entered a address “Near, D Mart Rd, next to Parikh Peninsula Park,Y K Nagar”
+[12:19]Test 9 â€“ Entered special characters such as  â€œ, . ;â€ in address field
+What I did: Entered a address â€œNear, D Mart Rd, next to Parikh Peninsula Park,Y K Nagarâ€
 Expected: Should accept it
-Actual: Error shows “Special characters are not allowed”
+Actual: Error shows â€œSpecial characters are not allowedâ€
 Bug? Yes
 
-[12:22]Test 10 – Enter a mobile number more than 10 numbers or less than 10 numbers
-What I did: Entered “1234567890” or “23564”
+[12:22]Test 10 â€“ Enter a mobile number more than 10 numbers or less than 10 numbers
+What I did: Entered â€œ1234567890â€ or â€œ23564â€
 Expected: only 10 digits allowed or Validation error
 Actual: It accepts it even if there are more numbers
 Bug? Yes
 
-[12:26]Test 11 – Fund Transfer
+[12:26]Test 11 â€“ Fund Transfer
 What I did: Entered an non existing account number
-Expected: Number doesn’t exists or put a correct number
-Actual: Error shows “account number doesn’t exists”
+Expected: Number doesnâ€™t exists or put a correct number
+Actual: Error shows â€œaccount number doesnâ€™t existsâ€
 Bug? No
 
-[12:35] Test — Back Button after form submission
+[12:35] Test â€” Back Button after form submission
 What I did: Submitted a form then clicked browser Back button
 Expected: Should go back safely without resubmitting
 Actual: Browser asks to resubmit 
