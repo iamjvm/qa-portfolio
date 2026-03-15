@@ -54,3 +54,7 @@ guru99 Bank Demo | OrangeHRM Demo | DemoQA
 | Exploratory Testing | 3 sessions with charters and SFDPOT heuristic |
 | Regression Testing | Retest log with JIRA comments for all bugs |
 | Agile/Scrum | 5 sprint scenario responses in /agile-notes/ |
+
+## 🔗 Connect
+- LinkedIn: https://linkedin.com/in/janhavimorajkar
+- GitHub: https://github.com/iamjvm/qa-portfolio
