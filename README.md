@@ -22,14 +22,22 @@ Manual testing practice projects built while learning QA from scratch.
 - Test Summary Report — quality assessment and release recommendation
 - Exploratory Session — Text Box, Registration Form, Buttons tested
 
+### 🔌 API Testing — JSONPlaceholder Practice
+- 15 API test cases covering GET, POST, PUT, DELETE
+- 87% pass rate — 13 passed, 2 failed
+- Test scripts for automated response validation in Postman
+- 2 formal API bug reports — missing field validation gaps
+- Environment variables configured in Postman
+
 ## 🛠️ Tools Used
-Google Sheets | JIRA | Notion | GitHub | Chrome |
-guru99 Bank Demo | OrangeHRM Demo | DemoQA
+Google Sheets | JIRA | Notion | GitHub | Chrome | Postman |
+guru99 Bank Demo | OrangeHRM Demo | DemoQA | JSONPlaceholder
 
 ## 🌐 Live Demo Sites Tested
 - https://demo.guru99.com
 - https://opensource-demo.orangehrmlive.com
 - https://demoqa.com
+- https://jsonplaceholder.typicode.com
 
 ## 📋 JIRA Portfolio
 - guru99 Bank Demo — 7 bugs logged across 4 modules
@@ -38,15 +46,14 @@ guru99 Bank Demo | OrangeHRM Demo | DemoQA
 - Sprint Board screenshots included
 
 ## 📊 Portfolio Stats
-- Total Test Cases Written: 45+
-- Total Bugs Found: 26+
-- Applications Tested: 3
-- Days of Learning: 10/120
+- Total Test Cases Written: 60+
+- Total Bugs Found: 28+
+- Applications Tested: 4
 
 ## 💡 Skills Demonstrated
 | Skill | Evidence |
 |---|---|
-| Test Case Design | 45 test cases across 2 apps |
+| Test Case Design | 60 test cases across 3 apps |
 | Bug Reporting | Formal reports with severity, priority, steps |
 | Test Planning | 2 complete Test Plans with risk documentation |
 | Test Execution | Execution logs with Pass/Fail/Blocked status |
@@ -54,6 +61,7 @@ guru99 Bank Demo | OrangeHRM Demo | DemoQA
 | Exploratory Testing | 3 sessions with charters and SFDPOT heuristic |
 | Regression Testing | Retest log with JIRA comments for all bugs |
 | Agile/Scrum | 5 sprint scenario responses in /agile-notes/ |
+| API Testing | 15 test cases, Postman collections, test scripts |
 
 ## 🔗 Connect
 - LinkedIn: https://linkedin.com/in/janhavimorajkar
