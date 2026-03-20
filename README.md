@@ -22,12 +22,13 @@ Manual testing practice projects built while learning QA from scratch.
 - Test Summary Report — quality assessment and release recommendation
 - Exploratory Session — Text Box, Registration Form, Buttons tested
 
-### 🔌 API Testing — JSONPlaceholder Practice
-- 15 API test cases covering GET, POST, PUT, DELETE
-- 87% pass rate — 13 passed, 2 failed
-- Test scripts for automated response validation in Postman
-- 2 formal API bug reports — missing field validation gaps
-- Environment variables configured in Postman
+### 🔌 Project 3 — API Testing with Postman
+- 35 API test cases across 4 layers — happy path, negative, boundary, security
+- 80% pass rate — 28 passed, 7 failed
+- 5 bugs found and documented
+- Chained request flow — Register, Get, Update, Delete
+- Postman Collection exported as JSON — importable
+- API Test Summary Report — 9 sections
 
 ## 🛠️ Tools Used
 Google Sheets | JIRA | Notion | GitHub | Chrome | Postman |
@@ -46,14 +47,15 @@ guru99 Bank Demo | OrangeHRM Demo | DemoQA | JSONPlaceholder
 - Sprint Board screenshots included
 
 ## 📊 Portfolio Stats
-- Total Test Cases Written: 60+
-- Total Bugs Found: 28+
+- Total Test Cases Written: 95+
+- Total Bugs Found: 33+
 - Applications Tested: 4
+- Days of Learning: 13/120
 
 ## 💡 Skills Demonstrated
 | Skill | Evidence |
 |---|---|
-| Test Case Design | 60 test cases across 3 apps |
+| Test Case Design | 95 test cases across 3 projects |
 | Bug Reporting | Formal reports with severity, priority, steps |
 | Test Planning | 2 complete Test Plans with risk documentation |
 | Test Execution | Execution logs with Pass/Fail/Blocked status |
@@ -61,7 +63,7 @@ guru99 Bank Demo | OrangeHRM Demo | DemoQA | JSONPlaceholder
 | Exploratory Testing | 3 sessions with charters and SFDPOT heuristic |
 | Regression Testing | Retest log with JIRA comments for all bugs |
 | Agile/Scrum | 5 sprint scenario responses in /agile-notes/ |
-| API Testing | 15 test cases, Postman collections, test scripts |
+| API Testing | 35 test cases, Postman collections, chained flows, test scripts |
 
 ## 🔗 Connect
 - LinkedIn: https://linkedin.com/in/janhavimorajkar
